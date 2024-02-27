@@ -6,7 +6,7 @@
 /*   By: dzuiev <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/10 12:47:19 by dzuiev            #+#    #+#             */
-/*   Updated: 2024/02/11 17:44:42 by dzuiev           ###   ########.fr       */
+/*   Updated: 2024/02/27 10:42:30 by dzuiev           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,13 +86,6 @@ int	main(int argc, char **argv)
 	*stack_a = NULL;
 	*stack_b = NULL;
 	fill_stack_with_values(argc, argv, stack_a);
-	if (stack_sorted(stack_a))
-	{
-		free_all_stacks(stack_a, stack_b);
-		free(stack_a);
-		free(stack_b);
-		return (0);
-	}
 	check_commands(stack_a, stack_b);
 	checker_result(stack_a, stack_b);
 	free_all_stacks(stack_a, stack_b);

@@ -6,7 +6,7 @@
 /*   By: dzuiev <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/29 15:17:52 by dzuiev            #+#    #+#             */
-/*   Updated: 2024/02/11 17:30:42 by dzuiev           ###   ########.fr       */
+/*   Updated: 2024/02/27 10:38:54 by dzuiev           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <stddef.h>
 # include <limits.h>
 # include <fcntl.h>
-# include "../../libft/libft.h"
+# include "../libft/libft.h"
 
 typedef struct s_stack
 {
